@@ -39,7 +39,7 @@ class Namelist(OrderedDict):
         self._indent = 4 * ' '
         self._end_comma = False
         self._uppercase = False
-        self._floatformat = ''
+        self._floatformat = '.17g'
         self._logical_repr = {False: '.false.', True: '.true.'}
 
         # Namelist group spacing flag
